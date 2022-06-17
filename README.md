@@ -1,8 +1,13 @@
 # the QA app
 Address QA artifacts, tests practices using jest and Cypress while CI using GitHub actions and more.
 
+*general statement: this document is considering an expo project typed with typescript
+
 ## sections
 *general statement: this document is considering an expo project typed with typescript
+
+- [X] fundamentals and best practices
+
 ### fundamentals
 - [ ] project structure
 - [ ] commit patterns: https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716
@@ -10,14 +15,34 @@ Address QA artifacts, tests practices using jest and Cypress while CI using GitH
   - [ ] design: https://www.figma.com/
   - [ ] specification: ADD
 ### test environment setup
-  #### Unit + Integrated
-  - [ ] jest library
-  - [ ] React native testing library
-  - [ ] React hooks testking library
+#### libraries
+Install Jest using yarn:
+
+yarn add --dev jest
+Or npm:
+
+npm install --save-dev jest
+https://github.com/facebook/jest#getting-started
+
+Using yarn
+yarn add --dev @testing-library/react-native
+Using npm
+npm install --save-dev @testing-library/react-native
+https://github.com/callstack/react-native-testing-library#installation
+
+npm install --save-dev @testing-library/react-hooks
+https://github.com/testing-library/react-hooks-testing-library#installation
+
+npm install -D fetch-mock-jest
+https://github.com/wheresrhys/fetch-mock-jest#installation
+
+npm i --save-dev jest-date-mock
+https://github.com/hustcc/jest-date-mock#install
+
+
   - [ ] Configuration files (jest.config.js and others)
-  ##### Date mock
-  - [ ] Jest date mock library
-  #### Unit + E2E
+  
+#### Unit + E2E
   - [ ] Cypress library
 ### IDE configuration
 https://www.notion.so/Instala-o-das-ferramentas-2e3f74b481204a69a1189a4cfe54adc7
