@@ -15,7 +15,8 @@ Address QA artifacts, tests practices using jest and Cypress while CI using GitH
   - [ ] design: https://www.figma.com/
   - [ ] specification: ADD
   #### smoke tests
-
+  https://www.cypress.io/blog/2019/12/06/use-meaningful-smoke-tests/
+  https://www.youtube.com/watch?v=SFW7Ecj5TNE
 ### test environment setup
 #### libraries
 Install Jest using yarn:
