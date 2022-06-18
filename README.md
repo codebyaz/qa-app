@@ -17,6 +17,8 @@ Address QA artifacts, tests practices using jest and Cypress while CI using GitH
   #### smoke tests
   https://www.cypress.io/blog/2019/12/06/use-meaningful-smoke-tests/
   https://www.youtube.com/watch?v=SFW7Ecj5TNE
+  #### APP actions
+  https://www.cypress.io/blog/2019/01/03/stop-using-page-objects-and-start-using-app-actions/
 ### test environment setup
 #### libraries
 Install Jest using yarn:
