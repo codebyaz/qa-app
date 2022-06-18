@@ -14,6 +14,8 @@ Address QA artifacts, tests practices using jest and Cypress while CI using GitH
   #### QA artifacts
   - [ ] design: https://www.figma.com/
   - [ ] specification: ADD
+  #### smoke tests
+
 ### test environment setup
 #### libraries
 Install Jest using yarn:
